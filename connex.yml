@@ -1,0 +1,48 @@
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 192.168.1.251
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: Admin
+      enable:
+        password: cisco
+    alias: 'uut'
+    os: ios
+    type: router
+    platform: c7200
+  R2:
+    connections:
+      cli:
+        ip: 192.168.1.252
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: Admin
+      enable:
+        password: cisco
+    os: ios
+    type: ios
+  R3:
+    connections:
+      cli:
+        ip: 192.168.1.253
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: Admin
+      enable:
+        password: cisco
+    os: ios
+    type: ios
+topology:
+  R1:
+    interfaces:
+      FastEthernet0/0:
+        type: FastEthernet
+        link: Link to Switch   
