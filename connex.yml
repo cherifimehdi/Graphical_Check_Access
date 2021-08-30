@@ -26,7 +26,7 @@ devices:
       enable:
         password: cisco
     os: ios
-    type: ios
+    type: router
   R3:
     connections:
       cli:
@@ -39,10 +39,4 @@ devices:
       enable:
         password: cisco
     os: ios
-    type: ios
-topology:
-  R1:
-    interfaces:
-      FastEthernet0/0:
-        type: FastEthernet
-        link: Link to Switch   
+    type: router
