@@ -1,3 +1,5 @@
+# Author : Mehdi CHERIFI
+
 from flask import Flask, render_template
 from genie.testbed import load
 import shutil
@@ -26,7 +28,7 @@ def Check_Access(testbed):
 
          SWITCH=Custom("Switch", "./static/Switch.png")
          for k,l in Device_Decision.items():
-            Dev=Custom(k+'\n'+ l, "./static/"+testbed.devices[k].type+".jpg")
+            Dev=Custom(k+'\n'+ l + '\n'+ testbed.devices[k].connections.cli.protocol+":"+str(testbed.devices[k].connections.cli.port), "./static/"+testbed.devices[k].type+".jpg")
             Topology_Devices.append(Dev)
          PC >> SWITCH >> Topology_Devices
    shutil.move("Topology_Result.png", "static/Topology_Result.png")
