@@ -128,7 +128,7 @@ PhD in Electronics and an active Cisco CCAI Instructor and Network Engineering T
 I am interesting in all about NetDevOps, Networking programmability and automation. I am a Cisco contents fan.
 ## Contact Me
 
-[LinkedIn](www.linkedin.com/in/mehdi-cherifi)
+[LinkedIn](www.linkedin.com/in/cherifi-mehdi)
 
 [GitHub](https://github.com/cherifimehdi)
 
