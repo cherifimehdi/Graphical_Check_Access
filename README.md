@@ -77,7 +77,7 @@ Here we run the __graphical_check_access.py__ script from the __Admin__ host:
 
  In the case there is no access to the devices: ![No_Access](./Images/No_Access.png)
  
- Here a demonstration of the process: ![Access_Ok](./Demo/Access_Ok.gif)
+ Here a demonstration of the process: ![Auto_Access](./Demo/Auto_Access.gif)
 
  ### Case 2. ___On-demand_ Access__
  We use __index_on-demand_state.html__ template to give the admin the possibility to retirive the access state of the devices using a botton.
