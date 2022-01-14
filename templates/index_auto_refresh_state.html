@@ -1,0 +1,77 @@
+<div class='my-legend'>
+<div class='legend-title'>Device Color Signification</div>
+<div class='legend-scale'>
+  <ul class='legend-labels'>
+    <li><span style='background:#56beac;'></span>Access OK</li>
+    <li><span style='background:#fd173f;'></span>No Access</li>
+    
+  </ul>
+</div>
+
+
+<style type='text/css'>
+  .my-legend .legend-title {
+    text-align: right;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    }
+  .my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .my-legend .legend-source {
+    font-size: 50%;
+    color: #999;
+    clear: both;
+    }
+  .my-legend a {
+    color: #777;
+    }
+</style>
+</style>
+
+<html>
+<head>
+<title>Device Access State</title>
+<script>
+<!--
+function timedRefresh(timeoutPeriod) {
+	setTimeout("location.reload(true);",timeoutPeriod);
+}
+
+window.onload = timedRefresh(5000);
+
+//   -->
+</script>
+</head>
+<body>
+<p></p>
+
+<div class="img-zoom-container">
+   <img src="/static/Topology_Result.png" style="width:40%"   alt="Access Image"  onerror="this.onerror=null;this.src='/static/Access_Problem.gif'; style='width:800'" />
+   
+   
+   <div id="myresult" class="img-zoom-result"></div>
+</div>
+
+<p></p>
+</body>
+</html>
