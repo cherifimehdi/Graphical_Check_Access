@@ -77,7 +77,6 @@ Here we run the __graphical_check_access.py__ script from the __Admin__ host:
 
  In the case there is no access to the devices: ![No_Access](./Images/No_Access.png)
  
- Here a demonstration of the process: ![Auto_Access](./Demo/Auto_Access.gif)
 
  ### Case 2. ___On-demand_ Access__
  We use __index_on-demand_state.html__ template to give the admin the possibility to retirive the access state of the devices using a botton.
@@ -88,8 +87,6 @@ Here we run the __graphical_check_access.py__ script from the __Admin__ host:
  Now we deactivate the access for the router __R3__: ![R3_Issue](./Images/R3_Issue.png)
  
  In the case there is no access to the devices: ![No_Access_On_Demand](./Images/No_Access_On_Demand.png)
-
- Here a demonstration of the process: ![Access_On_Demand](./Demo/Access_On_Demand.gif)
  
 
 
